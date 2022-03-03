@@ -19,6 +19,7 @@ export default class App extends Component {
   }
 
   render() {
+    console.log("APP - Rendered");
     return (
       <div>
         <h1>Hello {this.props.name}</h1>
