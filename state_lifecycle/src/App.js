@@ -18,6 +18,11 @@ export default class App extends Component {
     return null;
   }
 
+  componentDidMount(){
+    //Get Data
+    console.log("APP - ComponentDidMount");
+  }
+
   render() {
     console.log("APP - Rendered");
     return (
