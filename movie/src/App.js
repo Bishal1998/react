@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 import MovieCard from './MovieCard';
 import NoMovie from './NoMovie';
 
-const API_URL ="http://www.omdbapi.com?apikey=c032e2d7";
+const API_URL ="http://www.omdbapi.com?apikey=#####";
 
 const movie1 = {
   "Title": "Shark Tale",
